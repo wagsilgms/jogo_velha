@@ -1,0 +1,81 @@
+*, body {
+	box-sizing: border-box;
+	font-family: Verdana;
+}
+.area {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border: 2px solid #000;
+	float: left;
+	margin: 2px;
+	padding: 3px;
+	background-color: #fff;
+	cursor: pointer;
+}
+.placar, .jogo {
+	width: 400px;
+	height: 80px;
+	line-height: 80px;
+	background-color: #777;
+	padding-left: 50px;
+	font-size: 35px;
+	font-weight: bold;
+}
+.jogo {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+	color: #fff;
+	background-color: #000;
+}
+.painel {
+	width: 400px;
+	height: 570px;
+	background-color: #bbb;
+	margin: 150px auto;
+}
+.grupo {
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+.jogador {
+	width: 70px;
+	height: 70px;
+	background-color: #fff;
+	float: right;
+	border: 1px solid #000;
+	margin: 5px 50px 0 0;
+}
+.jogador img {
+	margin: 4px;
+}
+.final_1, .final_2, .final_3, .reiniciar {
+	width: 400px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	clear: both;
+	margin-top: 10px;
+	background-color: #ff0000;
+	font-weight: bold;
+	position: absolute;
+	bottom: 100px;
+	font-size: 20px;
+	color: #fff;
+	display: none;
+}
+.reiniciar {
+	background-color: green;
+	bottom: 65px;
+	cursor: pointer;
+}
+.mascara {
+	position: absolute;
+	width: 312px;
+	height: 312px;
+	background-color: rgba(255,255,255,0.3);
+	display: none;
+}
